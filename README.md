@@ -1,11 +1,13 @@
 ## Realtek 802.11ac (rtl8812au)
 
 This is a fork of the Realtek 802.11ac (rtl8812au) v4.2.2 (7502.20130507)
-driver altered to build on Linux kernel version >= 3.10.
+driver altered to build on Linux kernel version >= 3.10. The default settings 
+in this repo should get you up and running on a Raspberry Pi with as little
+effort as possible
 
 ### Purpose
 
-My D-Link DWA-171 wireless dual-band USB adapter needs the Realtek 8812au
+My Raspberry Pi wireless dual-band USB adapter needs the Realtek 8812au
 driver to work under Linux.
 
 The current rtl8812au version (per nov. 20th 2013) doesn't compile on Linux
